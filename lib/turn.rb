@@ -11,6 +11,11 @@ def valid_move?(board, index)
   invalid = invalid && position_taken(board, index)
 end
 
+def position_taken?(board, index)
+  pos_empty = /\S+/.match(board[index]).nil?
+  !pos_empty
+end
+
 def move(board, index, marker)
 
 end
