@@ -3,7 +3,7 @@ def display_board
 end
 
 def input_to_index(input)
-  input.trim.to_i - 1
+  input.strip.to_i - 1
 end
 
 def valid_move?(board, index)
