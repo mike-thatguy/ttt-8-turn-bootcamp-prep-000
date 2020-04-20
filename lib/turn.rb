@@ -12,7 +12,7 @@ end
 
 def valid_move?(board, index)
   invalid = index.between?(0, 8)
-  invalid = invalid && position_taken(board, index)
+  invalid = invalid && position_taken?(board, index)
 end
 
 def position_taken?(board, index)
