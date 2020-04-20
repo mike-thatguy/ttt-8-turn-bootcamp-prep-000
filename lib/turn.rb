@@ -14,7 +14,7 @@ def move
 
 end
 
-def turn
+def turn(board)
   index = -1
   while !valid_move(board, index)
     puts "Please enter 1-9:"
