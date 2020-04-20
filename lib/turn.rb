@@ -10,7 +10,7 @@ def valid_move?(board, index)
 
 end
 
-def move
+def move(board, index, marker)
 
 end
 
