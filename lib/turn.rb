@@ -7,7 +7,8 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-
+  invalid = index.between?(0, 8)
+  invalid = invalid &&
 end
 
 def move(board, index, marker)
