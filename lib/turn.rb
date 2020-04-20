@@ -8,7 +8,7 @@ end
 
 def valid_move?(board, index)
   invalid = index.between?(0, 8)
-  invalid = invalid &&
+  invalid = invalid && false
 end
 
 def move(board, index, marker)
